@@ -3,6 +3,7 @@ session_start();
 
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
+date_default_timezone_set('Etc/UTC');
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
